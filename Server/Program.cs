@@ -23,6 +23,7 @@ namespace Server
 
             Console.WriteLine("Starting...");
             Console.ReadLine();
+
         }
     }
 }

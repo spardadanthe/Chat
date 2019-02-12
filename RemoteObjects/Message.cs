@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace RemoteObjects
 {
-    public class Message
+    public class Message : MarshalByRefObject 
     {
         public string Sender { get; set; }
 
-        public string SendMessage(string message)
+        public void SendMessage(string message,string name)
         {
-            return message;
+            Console.WriteLine("{0}:{1}",name,message);
         }
     }
 }
