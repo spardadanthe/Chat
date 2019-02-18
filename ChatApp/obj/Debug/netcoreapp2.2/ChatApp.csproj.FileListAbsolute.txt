@@ -2,9 +2,7 @@ D:\Projects\Chat\ChatApp\bin\Debug\netcoreapp2.2\ChatApp.deps.json
 D:\Projects\Chat\ChatApp\bin\Debug\netcoreapp2.2\ChatApp.runtimeconfig.json
 D:\Projects\Chat\ChatApp\bin\Debug\netcoreapp2.2\ChatApp.runtimeconfig.dev.json
 D:\Projects\Chat\ChatApp\bin\Debug\netcoreapp2.2\ChatApp.dll
-D:\Projects\Chat\ChatApp\bin\Debug\netcoreapp2.2\ChatApp.pdb
-D:\Projects\Chat\ChatApp\bin\Debug\netcoreapp2.2\ChatApp.Views.dll
-D:\Projects\Chat\ChatApp\bin\Debug\netcoreapp2.2\ChatApp.Views.pdb
+D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\ChatApp.csprojAssemblyReference.cache
 D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\ChatApp.csproj.CoreCompileInputs.cache
 D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\ChatApp.RazorAssemblyInfo.cache
 D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\ChatApp.RazorAssemblyInfo.cs
@@ -15,6 +13,7 @@ D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\ChatApp.TagHelpers.output.cache
 D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\ChatApp.RazorCoreGenerate.cache
 D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
 D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Submit.g.cshtml.cs
 D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
 D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
 D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
@@ -23,8 +22,10 @@ D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.csht
 D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
 D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\ChatApp.RazorTargetAssemblyInfo.cache
 D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\ChatApp.RazorTargetAssemblyInfo.cs
+D:\Projects\Chat\ChatApp\bin\Debug\netcoreapp2.2\ChatApp.pdb
+D:\Projects\Chat\ChatApp\bin\Debug\netcoreapp2.2\ChatApp.Views.dll
+D:\Projects\Chat\ChatApp\bin\Debug\netcoreapp2.2\ChatApp.Views.pdb
 D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\ChatApp.Views.pdb
 D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\ChatApp.dll
 D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\ChatApp.pdb
 D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\ChatApp.csproj.CopyComplete
-D:\Projects\Chat\ChatApp\obj\Debug\netcoreapp2.2\ChatApp.csprojAssemblyReference.cache

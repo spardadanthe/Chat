@@ -13,7 +13,6 @@ namespace ChatApp.Controllers
     public class ChatController : ControllerBase
     {
         public static List<Message> messages = new List<Message>();
-
         // GET: api/Chat
         [HttpGet]
         public List<Message> Get()
@@ -25,9 +24,10 @@ namespace ChatApp.Controllers
         [HttpPost]
         public void Post([FromBody] Message message)
         {
+            if (!(String.IsNullOrEmpty(message.Author) || string.IsNullOrEmpty(message.Text)))
+            {
             messages.Add(message);
+            }
         }
-
-
     }
 }

@@ -1,8 +1,14 @@
-﻿@{
+﻿@model ChatApp.Models.AllMessagesModel
+@{
     ViewData["Title"] = "Home Page";
 }
 
+
+@foreach (var item in Model.messages)
+{
+    <p><span style="font-weight:bold">@item.Author:</span> @item.Text</p>
+    <hr>
+}
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+@Html.ActionLink("Send Message", "Submit", "Home")
+ </div>
