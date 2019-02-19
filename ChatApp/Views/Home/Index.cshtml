@@ -21,16 +21,12 @@
     @Html.ActionLink("Send Message", "Submit", "Home")
 </div>
 
-<button id="refresh">Refresh</button>
 <div id="messages"></div>
+
 <script src="~/lib/jquery/dist/jquery.js"></script>
 <script>
     $(document).ready(function () {
         loadData();
-
-        $("#refresh").click(function () {
-            loadData();
-        });
     });
 
     function loadData() {
@@ -47,7 +43,8 @@
                     $("#placer").append(text);
 
                 }
-            }
+            },
+            complete: loadData
         });
     }
 
