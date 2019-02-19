@@ -3,12 +3,54 @@
     ViewData["Title"] = "Home Page";
 }
 
+<div id="placer"></div>
 
-@foreach (var item in Model.messages)
-{
-    <p><span style="font-weight:bold">@item.Author:</span> @item.Text</p>
-    <hr>
-}
+@*old way*@
+@*@foreach (var item in Model.messages)
+    {
+        <p><span style="font-weight:bold">@item.Author:</span> @item.Text</p>
+        <hr>
+    }*@
+<style>
+    .bold {
+        font-weight: bold;
+    }
+</style>
+
 <div class="text-center">
-@Html.ActionLink("Send Message", "Submit", "Home")
- </div>
+    @Html.ActionLink("Send Message", "Submit", "Home")
+</div>
+
+<button id="refresh">Refresh</button>
+<div id="messages"></div>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        loadData();
+
+        $("#refresh").click(function () {
+            loadData();
+        });
+    });
+
+    function loadData() {
+        $.ajax({
+            contentType: "application/json",
+            type: "GET",
+            url: "https://localhost:44301/api/Chat",
+            success: function (result) {
+                $("#placer").html("");
+                for (var i = 0; i < result.length; i++) {
+                    var text = document.createElement("p");
+                    var styles = '<span class="bold">';
+                    text.innerHTML = styles + result[i]["author"] + '</span>' + ": " + result[i]["text"]
+                    $("#placer").append(text);
+
+                }
+            }
+        });
+    }
+
+
+</script>
+
